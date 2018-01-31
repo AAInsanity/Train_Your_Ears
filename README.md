@@ -2,11 +2,7 @@
 
 Introduction:
 
-An android application that is a comprehensive tool in helping to train users’ ability in identifying specific pitches,
-intervals, chords and chord progressions. The app is written in Android Studio using Java and XML. It’s unique advantage
-comparing with other ear-training apps includes is its ability to generate a chord in different voicings rather than
-the simplest one (users can control how complex the voicings are) which is important for honing users’ ability to 
-identify a chord in multi-textured music. It also allows users to fully customize a chord and a chord progression.
+An android application built for API 26 or above that is a comprehensive tool in helping to train users’ ability in identifying specific pitches,intervals, chords and chord progressions. The app is written in Android Studio using Java and XML. It’s unique advantage comparing with other ear-training apps includes is its ability to generate a chord in different voicings rather than the simplest one (users can control how complex the voicings are) which is important for honing users’ ability to identify a chord in multi-textured music. It also allows users to fully customize a chord and a chord progression.
 
 
 Creator's Confession:
