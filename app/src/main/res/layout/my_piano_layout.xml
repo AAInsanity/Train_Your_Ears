@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintDimensionRatio="343:124"
+        >
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_c3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="174:898"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_d3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="180:897"
+            app:layout_constraintLeft_toRightOf="@+id/button_c3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_c_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_c3"
+            app:layout_constraintRight_toRightOf="@+id/button_d3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_e3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="176:896"
+            app:layout_constraintLeft_toRightOf="@+id/button_d3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_d_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_d3"
+            app:layout_constraintRight_toRightOf="@+id/button_e3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_f3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="174:898"
+            app:layout_constraintLeft_toRightOf="@+id/button_e3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_g3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="180:897"
+            app:layout_constraintLeft_toRightOf="@+id/button_f3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_a3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="180:897"
+            app:layout_constraintLeft_toRightOf="@+id/button_g3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_b3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="176:896"
+            app:layout_constraintLeft_toRightOf="@+id/button_a3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_f_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_f3"
+            app:layout_constraintRight_toRightOf="@+id/button_g3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_g_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_g3"
+            app:layout_constraintRight_toRightOf="@+id/button_a3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_a_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_a3"
+            app:layout_constraintRight_toRightOf="@+id/button_b3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_c4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="174:898"
+            app:layout_constraintLeft_toRightOf="@+id/button_b3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_d4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="180:897"
+            app:layout_constraintLeft_toRightOf="@+id/button_c4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_c_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_c4"
+            app:layout_constraintRight_toRightOf="@+id/button_d4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_e4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="176:896"
+            app:layout_constraintLeft_toRightOf="@+id/button_d4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_d_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_d4"
+            app:layout_constraintRight_toRightOf="@+id/button_e4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_f4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="174:898"
+            app:layout_constraintLeft_toRightOf="@+id/button_e4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_g4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="180:897"
+            app:layout_constraintLeft_toRightOf="@+id/button_f4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_a4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="180:897"
+            app:layout_constraintLeft_toRightOf="@+id/button_g4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_b4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_white3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="176:896"
+            app:layout_constraintLeft_toRightOf="@+id/button_a4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_f_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_f4"
+            app:layout_constraintRight_toRightOf="@+id/button_g4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_g_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_g4"
+            app:layout_constraintRight_toRightOf="@+id/button_a4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <com.example.app3.PianoButton
+            android:id="@+id/button_a_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_black"
+            app:layout_constraintDimensionRatio="114:555"
+            app:layout_constraintLeft_toLeftOf="@+id/button_a4"
+            app:layout_constraintRight_toRightOf="@+id/button_b4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/guideline92" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline92"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.61"
+            tools:layout_editor_absoluteY="619dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

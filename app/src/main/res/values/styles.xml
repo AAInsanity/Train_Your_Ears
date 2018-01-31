@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@drawable/background1</item>
+        <item name="actionBarStyle">@style/TransActionBar</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:strokeColor">@color/colorPrimary</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="TransActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/colorTranslucent</item>
+    </style>
+
+    <style name="Orange" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Orange.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+
+
+</resources>

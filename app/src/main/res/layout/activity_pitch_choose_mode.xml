@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app3.PitchChooseModeActivity">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline158"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="362dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.56"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="230dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline160"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.45"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="185dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline159"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.12"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="49dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline162"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41"
+        tools:layout_editor_absoluteY="247dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline163"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31"
+        tools:layout_editor_absoluteY="187dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:onClick="toSingle"
+        android:text="Single Note"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline162"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline159"
+        app:layout_constraintRight_toLeftOf="@+id/guideline160"
+        app:layout_constraintTop_toTopOf="@+id/guideline163"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:onClick="toAfterChord"
+        android:text="After Chord"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline162"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline161"
+        app:layout_constraintRight_toLeftOf="@+id/guideline158"
+        app:layout_constraintTop_toTopOf="@+id/guideline163"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+</android.support.constraint.ConstraintLayout>

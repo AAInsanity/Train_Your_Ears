@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Train Your Ears</string>
+    <string name="_play_">Play</string>
+    <string name="_multiple_choice_">Muptiple Choice</string>
+    <string name="_fill_blank_">Fill in Blank</string>
+    <string name="_submit_">Submit</string>
+    <string name="_main_menu_">Main Menu</string>
+    <string name="_major_">maj</string>
+    <string name="_minor_">min</string>
+    <string name="_diminished_">dim</string>
+    <string name="_augmented_">aug</string>
+    <string name="_sus2_">sus2</string>
+    <string name="_sus4_">sus4</string>
+    <string name="_triads_">Triads</string>
+    <string name="_sevenths_">Sevenths</string>
+    <string name="_apply_">apply</string>
+    <string name="_select_chords_">Select Chords</string>
+    <string name="_dominant_">dominant</string>
+    <string name="_half_dim_">half dim</string>
+    <string name="_min_maj_">min/maj</string>
+    <string name="_aug_maj_">aug/maj</string>
+    <string name="_ninths_">Ninths</string>
+    <string name="_dom_min_">dom/min</string>
+    <string name="_69_">6/9</string>
+    <string name="_f5f9_">♭5♭9</string>
+    <string name="_s5f9_">♯5♭9</string>
+    <string name="_f5s9_">♭5♯9</string>
+    <string name="_s5s9_">♯5♯9</string>
+    <string name="_simple_format_">Simple Format</string>
+    <string name="_root_position_">Root Position</string>
+    <string name="_no_octaves_">No Octaves</string>
+    <string name="_add_">add</string>
+    <string name="_delete_all_">delete all</string>
+    <string name="_play_chord_below_">Play in your chord in root position below</string>
+    <string name="_custom_chords_">Custom Chords</string>
+    <string name="_pitch_">pitch</string>
+    <string name="_progression_">progression</string>
+    <string name="_interval_">interval</string>
+    <string name="_chord_">chord</string>
+    <string name="_pitch_rules_">First, you will hear a chord that contains the correct pitch, and then the pitch will be played once more. You need to identify which pitch it is. Note: C♯ and D♭ will be considered the same pitch.</string>
+    <string name="_result_display_">Your record: %1$d/%2$d; Your accuracy: %3$s.</string>
+    <string name="_note_">This app was created in 2017 by Thomas Deng</string>
+    <string name="_custom_progressions_">Custom Progressions</string>
+    <string name="_progressions_name_">Name Your Progression</string>
+    <string name="_build_another_">Build Another</string>
+
+</resources>

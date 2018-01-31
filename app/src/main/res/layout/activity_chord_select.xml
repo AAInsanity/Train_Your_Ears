@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app3.ChordSelectActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        app:cardBackgroundColor="@color/colorTranslucent"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline77"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline66"
+        app:layout_constraintRight_toLeftOf="@+id/guideline131"
+        app:layout_constraintTop_toTopOf="@+id/guideline134"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/_root_position_"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline154"
+                app:layout_constraintRight_toLeftOf="@+id/switch2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/_no_octaves_"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline155"
+                app:layout_constraintRight_toLeftOf="@+id/guideline153"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/_simple_format_"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline153"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline153"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.71" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline154"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline155"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.41" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/drawing5"
+        android:gravity="center"
+        android:text="@string/_ninths_"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="6sp"
+        android:autoSizeMaxTextSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151"
+        app:layout_constraintRight_toLeftOf="@+id/guideline139"
+        app:layout_constraintTop_toTopOf="@+id/guideline55" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/drawing4"
+        android:elevation="24dp"
+        android:gravity="center"
+        android:text="@string/_sevenths_"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="6sp"
+        android:autoSizeMaxTextSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline54"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151"
+        app:layout_constraintRight_toLeftOf="@+id/guideline139"
+        app:layout_constraintTop_toTopOf="@+id/guideline48" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/drawing1"
+        android:elevation="16dp"
+        android:gravity="center"
+        android:text="@string/_triads_"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="6sp"
+        android:autoSizeMaxTextSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline49"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151"
+        app:layout_constraintRight_toLeftOf="@+id/guideline139"
+        app:layout_constraintTop_toTopOf="@+id/guideline152" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="toPlayChord"
+        android:text="@string/_apply_"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="4sp"
+        android:autoSizeMaxTextSize="14sp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline74"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151"
+        app:layout_constraintRight_toLeftOf="@+id/guideline139"
+        app:layout_constraintTop_toTopOf="@+id/guideline78" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="toCustomChord"
+        android:text="@string/_custom_chords_"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="4sp"
+        android:autoSizeMaxTextSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline75"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline115"
+        app:layout_constraintRight_toLeftOf="@+id/guideline111"
+        app:layout_constraintTop_toTopOf="@+id/guideline73" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CardView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="@color/colorTranslucent"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline56"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline44"
+        app:layout_constraintRight_toLeftOf="@+id/guideline47"
+        app:layout_constraintTop_toTopOf="@+id/guideline57"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_f5s9_"
+                android:textAllCaps="false"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline70"
+                app:layout_constraintBottom_toTopOf="@+id/guideline64"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline69"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox17" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_s5s9_"
+                android:textAllCaps="false"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline68"
+                app:layout_constraintBottom_toTopOf="@+id/guideline65"
+                app:layout_constraintLeft_toRightOf="@+id/checkBox17"
+                app:layout_constraintTop_toTopOf="@+id/guideline72" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_f5f9_"
+                android:textAllCaps="false"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline68"
+                app:layout_constraintBottom_toTopOf="@+id/guideline64"
+                app:layout_constraintLeft_toRightOf="@+id/checkBox20"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox18" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_s5f9_"
+                android:textAllCaps="false"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/guideline65"
+                app:layout_constraintLeft_toRightOf="@+id/checkBox18"
+                app:layout_constraintTop_toTopOf="@+id/guideline72" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_dom_min_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline70"
+                app:layout_constraintBottom_toTopOf="@+id/guideline65"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline69"
+                app:layout_constraintTop_toTopOf="@+id/guideline72" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_dominant_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline72"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline68"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline71" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.95"
+                tools:layout_editor_absoluteY="492dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.65"
+                tools:layout_editor_absoluteY="463dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.36"
+                tools:layout_editor_absoluteY="435dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.05"
+                tools:layout_editor_absoluteY="405dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_minor_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline72"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline70"
+                app:layout_constraintRight_toLeftOf="@+id/guideline68"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="@+id/guideline71"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_major_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline72"
+                app:layout_constraintRight_toLeftOf="@+id/guideline70"
+                app:layout_constraintTop_toTopOf="@+id/guideline71"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline69" />
+
+            <android.support.constraint.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline68"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.7"
+                tools:layout_editor_absoluteY="400dp"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.39"
+                tools:layout_editor_absoluteY="400dp"
+                tools:layout_editor_absoluteX="175dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.057142857"
+                tools:layout_editor_absoluteY="400dp"
+                tools:layout_editor_absoluteX="82dp" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CardView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="@color/colorTranslucent"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline55"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline44"
+        app:layout_constraintRight_toLeftOf="@+id/guideline47"
+        app:layout_constraintTop_toTopOf="@+id/guideline54"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_min_maj_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline63"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline62"
+                app:layout_constraintBottom_toTopOf="@+id/guideline60"
+                app:layout_constraintTop_toTopOf="@+id/guideline5700" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_aug_maj_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5700"
+                app:layout_constraintTop_toTopOf="@+id/guideline59"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline61" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_diminished_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline61"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5700"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline63"
+                app:layout_constraintTop_toTopOf="@+id/guideline59" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_dominant_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/checkBox8"
+                app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                app:layout_constraintTop_toTopOf="@+id/guideline58" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_major_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline63"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline62"
+                app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                app:layout_constraintTop_toTopOf="@+id/guideline58" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_minor_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline61"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline63"
+                app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                app:layout_constraintTop_toTopOf="@+id/guideline58" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_half_dim_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline63"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline62"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5700"
+                app:layout_constraintTop_toTopOf="@+id/guideline59" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline5700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.66"
+                tools:layout_editor_absoluteY="323dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.95"
+                tools:layout_editor_absoluteY="353dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.37"
+                tools:layout_editor_absoluteY="293dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.05"
+                tools:layout_editor_absoluteY="261dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline61"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.7"
+                tools:layout_editor_absoluteY="256dp"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.39"
+                tools:layout_editor_absoluteY="256dp"
+                tools:layout_editor_absoluteX="175dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.057142857"
+                tools:layout_editor_absoluteY="256dp"
+                tools:layout_editor_absoluteX="82dp" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:cardBackgroundColor="@color/colorTranslucent"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline47"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline44"
+        app:layout_constraintBottom_toTopOf="@+id/guideline48"
+        app:layout_constraintTop_toTopOf="@+id/guideline49">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_sus2_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline130"
+                app:layout_constraintLeft_toRightOf="@+id/checkBox5"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline570" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_sus4_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline50"
+                app:layout_constraintTop_toTopOf="@+id/guideline570"
+                app:layout_constraintBottom_toTopOf="@+id/guideline130"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline52" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_diminished_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline52"
+                app:layout_constraintBottom_toTopOf="@+id/guideline130"
+                app:layout_constraintTop_toTopOf="@+id/guideline570"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline51" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_augmented_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/checkBox2"
+                app:layout_constraintBottom_toTopOf="@+id/guideline570"
+                app:layout_constraintTop_toTopOf="@+id/guideline53" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_minor_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline50"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline52"
+                app:layout_constraintBottom_toTopOf="@+id/guideline570"
+                app:layout_constraintTop_toTopOf="@+id/guideline53" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:checked="false"
+                android:onClick="onCheckboxesClicked"
+                android:text="@string/_major_"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeMaxTextSize="14sp"
+                app:layout_constraintRight_toLeftOf="@+id/guideline52"
+                app:layout_constraintBottom_toTopOf="@+id/guideline570"
+                app:layout_constraintTop_toTopOf="@+id/guideline53"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline51" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline570"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.5"
+                tools:layout_editor_absoluteY="177dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.07"
+                tools:layout_editor_absoluteY="146dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.93"
+                tools:layout_editor_absoluteY="208dp"
+                tools:layout_editor_absoluteX="66dp" />
+
+            <android.support.constraint.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline50"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.7"
+                tools:layout_editor_absoluteY="141dp"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.39"
+                tools:layout_editor_absoluteY="141dp"
+                tools:layout_editor_absoluteX="175dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.06"
+                tools:layout_editor_absoluteY="141dp"
+                tools:layout_editor_absoluteX="83dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline44"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.16"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.91"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="374dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.38" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.43"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="177dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.69"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="284dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.32"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="132dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.84"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="346dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline48"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22"
+        tools:layout_editor_absoluteY="132dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.29"
+        tools:layout_editor_absoluteY="175dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.46"
+        tools:layout_editor_absoluteY="277dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.69"
+        tools:layout_editor_absoluteY="416dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.71"
+        tools:layout_editor_absoluteY="428dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.97"
+        tools:layout_editor_absoluteY="584dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.87"
+        tools:layout_editor_absoluteY="524dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85"
+        tools:layout_editor_absoluteY="512dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.77"
+        tools:layout_editor_absoluteY="464dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.78"
+        tools:layout_editor_absoluteY="470dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.53"
+        tools:layout_editor_absoluteY="319dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1"
+        tools:layout_editor_absoluteY="60dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline152"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03"
+        tools:layout_editor_absoluteY="18dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline66"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.09"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="37dp" />
+
+</android.support.constraint.ConstraintLayout>
