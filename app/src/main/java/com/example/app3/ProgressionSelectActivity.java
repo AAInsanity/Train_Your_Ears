@@ -3,26 +3,19 @@ package com.example.app3;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.Switch;
 
-import com.example.app3.R;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 
 public class ProgressionSelectActivity extends AppCompatActivity {
 
@@ -36,7 +29,7 @@ public class ProgressionSelectActivity extends AppCompatActivity {
     public Gson gson;
     public static ArrayList<String> fourChord;
     static {
-        String[] temp = new String[]{"I-ii-V7-I","I-IV-V7-I","I-V7/V-V7-I","I-ii-V7/vi-vi","I-bVII-IV-I","I-bVI-V7-I","i-ii°-V7-i",
+        String[] temp = new String[]{"I-ii-V7-I","I-IV-V7-I","I-V7/V-V7-I","I-ii-V7/vi-vi","I-bVII-IV-I","I-bVI-V7-I","I-V7/iv-iv-I","i-ii°-V7-i",
                 "i-iv-V7-i","i-V7/V-V7-i","i-VI-III-VII","i-VI-VII-i","i-VII-iv-VI","i-III-VII-VI","i-v-VII-iv"};
         fourChord = new ArrayList<>(Arrays.asList(temp));
     }

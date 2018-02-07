@@ -4,12 +4,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.media.SoundPool;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Pair;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -137,6 +135,8 @@ public class ProgressionActivity extends AppCompatActivity {
         progressionDict.put("I-ii-V7/vi-vi",new Progression(new KeyValuePair(0, "major triad"), new KeyValuePair(2,"minor triad"), new KeyValuePair(4,"dominant seventh"),new KeyValuePair(9,"minor triad")));
         progressionDict.put("I-bVII-IV-I",new Progression(new KeyValuePair(0, "major triad"), new KeyValuePair(10,"major triad"), new KeyValuePair(5,"major triad"),new KeyValuePair(0,"major triad")));
         progressionDict.put("I-bVI-V7-I",new Progression(new KeyValuePair(0, "major triad"), new KeyValuePair(8,"major triad"), new KeyValuePair(7,"dominant seventh"),new KeyValuePair(0,"major triad")));
+        progressionDict.put("I-V7/iv-iv-I",new Progression(new KeyValuePair(0, "major triad"), new KeyValuePair(0,"dominant seventh"), new KeyValuePair(5,"minor triad"),new KeyValuePair(0,"major triad")));
+
 
         progressionDict.put("i-ii°-V7-i",new Progression(new KeyValuePair(0, "minor triad"), new KeyValuePair(2,"diminished triad"), new KeyValuePair(7,"dominant seventh"),new KeyValuePair(0,"minor triad")));
         progressionDict.put("i-iv-V7-i",new Progression(new KeyValuePair(0, "minor triad"), new KeyValuePair(5,"minor triad"), new KeyValuePair(7,"dominant seventh"),new KeyValuePair(0,"minor triad")));
